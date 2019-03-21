@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sondreandco.fastcolorpicking" versionCode="2" version="0.0.2">
+  <name>Fast Color Picking</name>
+  <description>Fast Color Picking - This is a minigame were you need to pick the right color before the time runs out!</description>
+
+  <feature name="debug-server" required="true">
+  <param name="domain" value="http://127.0.0.1"/>
+  <param name="key" value="some_unique_key"/>
+</feature>
+  
+  <gap:platform name="android" />
+  <icon src="icon-256.png" />
+</widget>
